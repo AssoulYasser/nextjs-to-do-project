@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Tasks() {
     return (
         <main>
-            HOME
+            TASKS
         </main>
     );
 }
