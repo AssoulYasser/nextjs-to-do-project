@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Oxygen } from 'next/font/google';
 import './globals.css';
 import NavBar from './Navigation/NavBar';
-import { useEffect } from 'react';
 
 const inter = Oxygen({
     subsets: ['latin'],
