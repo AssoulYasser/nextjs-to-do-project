@@ -1,7 +1,3 @@
 export default function AddElementCard() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

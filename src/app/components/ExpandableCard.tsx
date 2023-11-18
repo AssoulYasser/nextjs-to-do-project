@@ -1,7 +1,3 @@
 export default function ExpandableCard() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

@@ -1,7 +1,3 @@
 export default function Container() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

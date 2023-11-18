@@ -1,7 +1,3 @@
 export default function DateCard() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

@@ -1,7 +1,3 @@
 export default function Welcoming() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

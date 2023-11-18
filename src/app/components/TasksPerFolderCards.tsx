@@ -1,7 +1,3 @@
 export default function TasksPerFolderCards() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

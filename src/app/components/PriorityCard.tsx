@@ -1,7 +1,3 @@
 export default function PriorityCard() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

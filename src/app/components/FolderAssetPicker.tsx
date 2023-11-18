@@ -1,7 +1,3 @@
 export default function FolderAssetPicker() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

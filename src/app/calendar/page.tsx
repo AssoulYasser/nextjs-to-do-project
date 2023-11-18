@@ -1,7 +1,3 @@
 export default function Calendar() {
-    return (
-        <main>
-            CALENDAR
-        </main>
-    );
+    return <main>CALENDAR</main>;
 }

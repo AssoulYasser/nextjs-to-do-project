@@ -1,7 +1,3 @@
 export default function TaskTitleCard() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

@@ -1,3 +1,93 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary: theme('colors.primary');
+    --secondary: theme('colors.secondary');
+    --tritary: theme('colors.tritary');
+    --primary-container: theme('colors.primary_container.light');
+    --background: theme('colors.background.light');
+    --foreground: theme('colors.foreground.light');
+    --unselected: theme('colors.unselected.light');
+}
+
+.dark-theme {
+    --primary: theme('colors.primary');
+    --secondary: theme('colors.secondary');
+    --tritary: theme('colors.tritary');
+    --primary-container: theme('colors.primary_container.dark');
+    --background: theme('colors.background.dark');
+    --foreground: theme('colors.foreground.dark');
+    --unselected: theme('colors.unselected.dark');
+}
+
+body {
+    background-color: var(--background);
+}
+
+.nav-link {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    height: 100%;
+
+    @media (min-width: 1024px) {
+        justify-content: start;
+        width: 100%;
+        padding: 0px 16px;
+        align-items: center;
+        gap: 22px;
+    }
+}
+
+.nav-title {
+    display: none;
+    font-weight: bold;
+    font-size: medium;
+    color: var(--foreground);
+    @media (min-width: 1024px) {
+        display: block;
+    }
+}
+
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: transparent;
+}
+
+.ripple:active {
+    position: absolute;
+    box-sizing: border-box;
+    background-color: var(--unselected);
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+    width: 0%;
+    aspect-ratio: 1;
+    border-radius: 100%;
+
+    animation: ripple-animation 0.25s ease-out 1;
+}
+
+@keyframes ripple-animation {
+    0% {
+        opacity: 0%;
+        width: 0%;
+    }
+    100% {
+        opacity: 100%;
+        width: 120%;
+    }
+}

@@ -1,7 +1,3 @@
 export default function TaskCard() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

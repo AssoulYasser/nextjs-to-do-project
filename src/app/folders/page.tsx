@@ -1,7 +1,3 @@
 export default function Folders() {
-    return (
-        <main>
-            FOLDERS
-        </main>
-    );
+    return <main>FOLDERS</main>;
 }

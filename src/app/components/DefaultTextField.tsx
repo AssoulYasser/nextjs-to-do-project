@@ -1,7 +1,3 @@
 export default function DefaultTextField() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

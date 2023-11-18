@@ -1,7 +1,3 @@
 export default function Tasks() {
-    return (
-        <main>
-            TASKS
-        </main>
-    );
+    return <main>TASKS</main>;
 }

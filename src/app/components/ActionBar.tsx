@@ -1,7 +1,3 @@
 export default function ActionBar() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }

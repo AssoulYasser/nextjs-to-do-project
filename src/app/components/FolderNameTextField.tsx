@@ -1,7 +1,3 @@
 export default function FolderNameTextField() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div></div>;
 }
